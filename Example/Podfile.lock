@@ -1,0 +1,23 @@
+PODS:
+  - chatSDK (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - chatSDK (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  chatSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  chatSDK: db47512fdf004bd712e8c82b1fb4add9d1689021
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: fc8ac2c0604fac5e2d79098971709e0309ea942c
+
+COCOAPODS: 1.3.1
